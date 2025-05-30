@@ -357,7 +357,7 @@ def render_form_preview_tab(form_title: str, form_description: str, form_steps: 
 
     with st.expander("Menu Mie Ayam"):
         _, col, _ =st.columns(3)
-        col.image("data\MieAyam_menu.png", caption="Mie Ayam Asli", width=300)
+        col.image("https://raw.githubusercontent.com/KAZU2109/form_chicken_noodles/refs/heads/form_input_ui/data/MieAyam_menu.png", caption="Mie Ayam Asli", width=300)
 
     st.session_state.question_list = []
 
